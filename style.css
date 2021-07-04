@@ -11,10 +11,14 @@ h1{
     color: orange;
 }
 
+section{
+    display: flex;
+    margin-bottom: 100px;
+}
+
 .top-banner{
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
-    display: flex;
 }
 
 .half-width{
@@ -33,4 +37,10 @@ h1{
     color: white;
     padding: 10px 40px;
     
+}
+
+.dream-section{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
