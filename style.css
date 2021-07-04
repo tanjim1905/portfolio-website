@@ -6,7 +6,9 @@ body{
 h1{
     font-size: 50px;
 }
-
+h2{
+    font-size: 35px;
+}
 .orange-color{
     color: orange;
 }
@@ -36,6 +38,7 @@ h1{
     background-image: linear-gradient(orange, tomato);
     color: white;
     padding: 10px 40px;
+    border-radius: 10px;
     
 }
 
@@ -43,4 +46,35 @@ h1{
     background-image: url(img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experienced-section{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experienced-item{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+#orange-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#blue-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, salmon);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
